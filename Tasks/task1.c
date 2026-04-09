@@ -1,0 +1,15 @@
+#include<stdio.h>
+
+int main() { 
+
+    int number = 125;
+
+    if(number % 2 == 0) {
+        printf("EVEN Number");
+    }
+    else {
+        printf("ODD Number !");
+    }
+
+    return 0;
+}
